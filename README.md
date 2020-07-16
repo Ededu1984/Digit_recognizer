@@ -8,6 +8,31 @@ In this competition, your goal is to correctly identify digits from a dataset of
 We’ve curated a set of tutorial-style kernels which cover everything from regression to neural networks. 
 We encourage you to experiment with different algorithms to learn first-hand what works well and how techniques compare.
 
+Model
+CNN( Convolutional Neural Network) 
+
+Layers:
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d_1 (Conv2D)            (None, 24, 24, 30)        780       
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 12, 12, 30)        0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 12, 12, 30)        0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 4320)              0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 128)               553088    
+_________________________________________________________________
+dense_2 (Dense)              (None, 64)                8256      
+_________________________________________________________________
+dense_3 (Dense)              (None, 32)                2080      
+_________________________________________________________________
+prediction (Dense)           (None, 10)                330       
+=================================================================
+
+
 This code provide the following score:
 
 Accuracy: 98.32% 
