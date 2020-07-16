@@ -35,6 +35,7 @@ prediction (Dense)           (None, 10)                330
 
 
 
+
 This code provide the following score:
 
 Accuracy: 98.32% 
