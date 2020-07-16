@@ -11,5 +11,6 @@ We encourage you to experiment with different algorithms to learn first-hand wha
 This code provide the following score:
 
 Accuracy: 98.32% 
+
 Score in Kaggle after uploading: 0.98214
 
